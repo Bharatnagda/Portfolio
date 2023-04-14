@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SNAP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="containers">
+        <div class="navbar">
+          <h2 class="heading">WebDev</h2>
+          <div class="navitem">
+            <a href="#hire"><li class="section active">Hire Me..</li></a>
+            <!-- <img src="./images/icon-arrow-down.svg" alt="" class="arrow" /> -->
+            <a href="#project-highlight"><li class="section">Project</li></a>
+            <!-- <img src="./images/icon-arrow-down.svg" alt="" class="arrow" /> -->
+            <a href="#contact-us"><li class="section">Contact</li></a>
+            <a href="#about-me"><li class="section">About</li></a>
+          </div>
+          <button class="navbar-toggler" onclick="toggle()"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+        </div>
+        <div class="mobile-nav" id="toggle">
+          <a href="#hire"><li class="section active">Hire Me..</li></a>
+          <!-- <img src="./images/icon-arrow-down.svg" alt="" class="arrow" /> -->
+          <a href="#project-highlight"><li class="section">Project</li></a>
+          <!-- <img src="./images/icon-arrow-down.svg" alt="" class="arrow" /> -->
+          <a href="#contact-us"><li class="section">Contact</li></a>
+          <a href="#about-me"><li class="section">About</li></a>
+        </div> 
+        <div id="about-me" class="banner">
+          <div class="mobilecover-img">
+            <img src="./images/image-hero-mobile.png"  alt="" />
+          </div>
+          <div class="desc">
+            <h1 class="bullet">I am, <br />Bharat Nagda</h1>
+            <br /><br />
+            <p class="description">
+              Innovative Front End Developer building and maintaining <br />
+              responsive websites Proficient in HTML, CSS, jQuery, JavaScript; <br />
+              plus well versed with the SCSS,Bootstrap,PHP,MYSQL.
+            </p>
+            <br /><br>
+            <a href="./docs/Resume.pdf" download="Resume" class="learn-more">Download CV</a><br />
+            <div class="services">
+              <img src="./images/html.png" alt="" class="service" />
+              <img
+                src="./images/css.png"
+                alt=""
+                class="service"
+              />
+              <img src="./images/icons8-javascript.gif" alt="" class="service" />
+              <img src="./images/icons8-sass-48.png" alt="" class="service" />
+              <img src="./images/icons8-github.gif" alt="" class="service" />
+            </div>
+          </div>
+          <div class="cover-img">
+            <img src="./images/image-hero-desktop.png" width="400px" height="500px" alt="" />
+          </div>
+        </div>
+        
+      </div>
+      <div id="contact-us" class="footer">
+        <h2 class="headline">Have a Project On Your Mind..?</h2>
+        <p class="context">Let's Discuss Together and We'll Sort <br> Out the Problem  and Build a User Friendly Project</p>
+        <a href="tel:+91-9782241022"><button class="contact">Contact</button></a>
+      </div>
+      <div class="project">
+        <div class="backgroud-heading">
+          <h2 id="project-highlight"  class="title">Project Highlight's</h2>
+        </div>
+       
+    <div class="container d-flex ">
+      <div class="card m-3" style="width: 25rem;">
+        <img src="./images/workolics.png" height="120" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center"> Landing Page</h5>
+          <p class="card-text text-secondary">Responsive and User-Friendly Website Landing Page, Material UI Used is CSS3,SCSS & Jquery</p>
+          <a href="https://github.com/Bharatnagda/Workolics-Landing-Page" class="btn btn-primary">Repository</a>
+        </div>
+      </div>
+      <div class="card m-3" style="width: 25rem;">
+        <img src="./images/movie-app.png" height="120" class="card-img-top" alt="">
+        <div class="card-body">
+          <h5 class="card-title text-center">Movie Website</h5>
+          <p class="card-text text-secondary">Created Website's Landing Page Using CSS3 & HTML5 and Use Basic Javascript Event to Trigger Some Events</p>
+          <a href="#" class="btn btn-primary">Repository</a>
+        </div>
+      </div>
+      <div class="card m-3" style="width: 25rem;">
+        <img src="./images/eclinic.png" height="120" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Eclinic Management System</h5>
+          <p class="card-text text-secondary">Using Core PHP and MySql Perform Functionality to Create,Read,Update and Delete by Admin</p>
+          <a href="https://github.com/Bharatnagda/Eclinic-Management-System.git" class="btn btn-primary">Repository</a>
+        </div>
+      </div>
+      <div class="card m-3" style="width: 25rem;">
+        <img src="./images/weather app.png" height="120" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Weather App</h5>
+          <p class="card-text text-secondary">By Using Rapid API and Fetch Function Created Weather App to Check Weather Condition of Current City</p>
+          <a href="https://github.com/Bharatnagda/Weather-App" class="btn btn-primary">Repository</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div id="hire" class="footer-bar">
+      <h1 class="logo">WebDev.</h1>
+      <p class="contactline">Services Delivered by Us is Cost Effective , User Friendly and Responsive too. <br> Technologies Used <br>
+      HTML5 | CSS3 | JavaScript | Bootstrap |SASS | ...</p>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/bharat-nagda-85a52b152?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BiIUD2EwDRN%2B9UQffzZ7k8A%3D%3D" class="linkedin"><img src="./images/icons8-linkedin-circled-32.png" alt=""></a>
+        <a href="https://www.facebook.com/login/" class="linkedin"><img src="./images/icons8-facebook-32.png" alt=""></a>
+        <a href="mailto:bharat.nagda94@gmail.com" class="linkedin"><img src="./images/icons8-gmail-logo-32.png" alt=""></a>
+        <a href="https://github.com/Bharatnagda" class="linkedin"><img src="./images/icons8-github-32.png" alt=""></a>
+
+      </div>
+      <span class="copyright">&copy; Developed By Bharat Nagda </span>
+    </div>
+    <!-- bootstrap -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script>
+        
+      function toggle() {
+        var x = document.getElementById("toggle");
+        
+        if (x.className === "mobile-nav") {
+          x.className += " responsive";
+        } 
+       
+        else {
+          x.className = "mobile-nav";
+        }
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+  /* color: white;
+  background: black; */
+}
+body{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  
+}
+.header {
+ width: 100%;
+ /* background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/image-hero-desktop.png);
+ background-position: center;
+ background-size: cover; */
+  
+}
+.containers {
+  
+  width: 1170px;
+  margin: auto;
+}
+.navbar {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  
+}
+.heading {
+  font-weight: 900;
+  font-size: 35px;
+  
+}
+/* .navitem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.navitem .section {
+  display: inline;
+  margin: 30px;
+  color: grey;
+  text-decoration: none;
+}
+.active , .navitem .section:hover{
+  background: black;
+  border-radius: 20px;
+  color: white;
+  padding: 5px;
+  transition: 0.5s;
+}
+.navitem .arrow {
+  margin: 5px auto 0;
+}
+.navbar .register {
+  color: grey;
+  display: flex;
+  align-items: center;
+}
+.register .login {
+  margin-right: 23px;
+}
+.register .signup {
+  margin-left: 10px;
+  border: 1px solid;
+  padding: 7px 24px;
+  border-radius: 16px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px auto;
+}
+
+.banner .mobilecover-img{
+  display: none;
+}
+.banner .desc {
+  margin-top: -40px;
+  margin-left: 0;
+}
+.banner .bullet {
+  font-size: 65px;
+  line-height: 1;
+  text-shadow: 4px 0 5px grey;
+  
+}
+.banner .description{
+    color: grey;
+    font-weight: 500;
+    font-size: medium;
+}
+.banner .learn-more{
+    text-decoration: none;
+    color: white;
+    
+    padding: 10px 18px;
+    font-weight: 500;
+    border-radius: 20px;
+    background: black;
+}
+.banner .learn-more:hover{
+  background: whitesmoke;
+  color: black;
+  transition: 0.5s;
+}
+.services{
+    margin-top: 35px;
+}
+.services .service{
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px 0 grey;
+}
+.project-grid{
+  margin: auto;
+  display: block;
+  /* width: fit-content; */
+  padding-top: 50px;
+}
+.project .backgroud-heading {
+  text-shadow: 4px 0 5px grey;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 5px;
+}
+.project{
+  background: rgb(214, 214, 214);
+  margin: 50px 0 0  0;
+  padding: 15px;
+}
+.footer{
+  color: white;
+  padding: 20px;
+  background:deepskyblue;
+  text-align: center;
+}
+.footer .context{
+  font-weight: 500;
+}
+.footer .contact{
+  background: white;
+  color:deepskyblue;
+  border: none;
+  font-weight: 500;
+  padding: 5px 18px;
+  border-radius: 20px;
+}
+.footer-bar{
+  background: rgb(4, 4, 77);
+  color: white;
+  text-align: center;
+  margin: 50px 0 0 0;
+}
+
+.footer-bar .contact-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-bar .contact-links .linkedin{
+ padding: 5px;
+ border-radius: 50%;
+ border: 1px;
+}
+.mobile-nav{
+  display: none;
+}
+.navbar-toggler{
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .containers {
+    width: 970px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .containers {
+    width: 720px;
+    
+  }
+  .banner .mobilecover-img{
+    display: block;
+  }
+
+  .banner .desc{
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+  .cover-img{
+    display: none;
+  }
+  .banner{
+   
+    display: block;
+  }
+  .container .card-body .card-text{
+    display: none;
+   
+  }
+  .container .card .card-img-top{
+    height: 80px;
+    
+  }
+  .navitem{
+    display: none;
+  }
+  .mobile-nav{
+    display: block;
+    width:38% ;
+    position: fixed;
+    right: -325px;
+    transition: 0.5s;
+    background: white;
+    border-radius: 14px 0 0 14px;
+    box-shadow: 0 2px 6px 3px grey;
+  }
+  .navbar-toggler{
+    display: block;
+  }
+  .mobile-nav.responsive{
+    position: absolute;
+    right: 0;
+    
+    transition:0.5s;
+   
+    
+  }
+  .mobile-nav .section{
+    color: black;
+    margin: 8px 25px;
+    list-style-type: none;
+    padding: 15px;
+    color: grey;
+    text-decoration: none;
+  }
+  .mobile-nav.responsive .section:hover{
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+  }
+}
