@@ -178,13 +178,13 @@ body{
 .navbar-toggler{
   display: none;
 }
-@media only screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .containers {
-    width: 970px;
+    width: auto;
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px)  {
   .containers {
     width: 720px;
     
@@ -232,10 +232,7 @@ body{
   .mobile-nav.responsive{
     position: absolute;
     right: 0;
-    
     transition:0.5s;
-   
-    
   }
   .mobile-nav .section{
     color: black;
@@ -250,4 +247,34 @@ body{
     background-color: black;
     border-radius: 20px;
   }
+}
+@media only screen and (max-width: 767px) {
+  .containers {
+    width: 720px;
+  }
+  
+}
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .containers {
+    width: 720px;
+  }
+  .mobile-nav.responsive{
+    position: absolute;
+    right: -108px;
+    transition:0.5s;
+  }
+  .footer{
+    width: 117%;
+  }
+  .project{
+    width: 117%;
+  }
+
+  .card-text{
+    display: none;
+  }
+  .footer-bar{
+    width: 117%;
+  }
+  
 }
