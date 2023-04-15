@@ -17,7 +17,7 @@ body{
  background-position: center;
  background-size: cover; }*/
 
-.header .container {
+.container {
   
   width: 1170px;
   margin: auto;
@@ -185,7 +185,7 @@ body{
   display: none;
 }
 @media screen and (max-width: 1024px) {
-  .container {
+.container {
     width: 970px;
     margin: auto;
   }
@@ -259,6 +259,7 @@ body{
 @media only screen and (max-width: 767px) {
   .container {
     width: auto;
+    margin: auto;
   }
   
 }
