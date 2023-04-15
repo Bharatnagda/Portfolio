@@ -260,6 +260,13 @@ body{
   .container {
     width: auto;
     margin: auto;
+    padding: 0 15px;
+  }
+  .banner .mobilecover-img img{
+    width: 100%;
+  }
+  .mobile-nav a{
+    text-decoration: none;
   }
   
 }
