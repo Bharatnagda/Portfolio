@@ -17,7 +17,7 @@ body{
  background-position: center;
  background-size: cover; }*/
 
-.container {
+.header .container {
   
   width: 1170px;
   margin: auto;
@@ -151,6 +151,7 @@ body{
 }
 .footer .context{
   font-weight: 500;
+  padding: 12px;
 }
 .footer .contact{
   background: white;
