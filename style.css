@@ -187,12 +187,14 @@ body{
 @media screen and (max-width: 1024px) {
   .container {
     width: 970px;
+    margin: auto;
   }
 }
 
 @media (max-width: 768px)  {
   .container {
     width: 720px;
+    margin: auto;
     
   }
   .banner .mobilecover-img{
