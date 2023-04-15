@@ -126,22 +126,58 @@ body{
     border-radius: 50%;
     box-shadow: 0 3px 10px 0 grey;
 }
-.project-grid{
-  margin: auto;
-  display: block;
-  /* width: fit-content; */
-  padding-top: 50px;
-}
+
 .project .backgroud-heading {
   text-shadow: 4px 0 5px grey;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   padding-top: 5px;
 }
-.project{
+.container .project{
   background: rgb(214, 214, 214);
   margin: 50px 0 0  0;
+  padding: 10px;
+  color: white;
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)),grey;
+  background-position: center;
+  background-size: cover;  
+}
+ 
+
+.project .card{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+
+}
+.project .card .card-section{
+  width: auto;
+  text-align: justify;
+  margin: 25px;
+  padding: 30px;
+}
+.project .card .card-section .project-img{
+  width: 100%;
   padding: 15px;
+margin: auto;
+  border-radius: 20px;
+}
+.card .headline{
+  text-align: center;
+}
+.card .context{
+  padding: 15px;
+}
+.card .repo{
+  font-weight: 500;
+  text-decoration: none;
+  background: white;
+  color: black;
+  border-radius: 15px;
+  padding: 8px;
+  
 }
 .footer{
   color: white;
@@ -189,6 +225,18 @@ body{
     width: 970px;
     margin: auto;
   }
+  .project .card{
+    width: 100%;
+    
+  
+  }
+  .project .card .card-section{
+    width: auto;
+    text-align: justify;
+    margin: 20px;
+    padding: 30px;
+  }
+ 
 }
 
 @media (max-width: 768px)  {
@@ -226,9 +274,9 @@ body{
   }
   .mobile-nav{
     display: block;
-    width:38% ;
+    width:50% ;
     position: fixed;
-    right: -296px;
+    right: -320px;
     transition: 0.5s;
     background: white;
     border-radius: 14px 0 0 14px;
@@ -265,11 +313,22 @@ body{
   .banner .mobilecover-img img{
     width: 100%;
   }
+  .banner .bullet{
+    font-size: 30px;
+  }
+  .banner .description{
+    margin: -20px;
+  }
   .mobile-nav a{
     text-decoration: none;
   }
   
-  
+  .project{
+    height: 50%;
+  }
+  .card .repo{
+    margin: 60px;
+  }
 }
 /* @media only screen and  (max-width: 640px) {
   .containers {
