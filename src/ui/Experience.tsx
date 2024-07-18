@@ -29,12 +29,12 @@ const experiences = [
 ]
 const Experience = () => {
   return (
-    <div className='project-section py-20'>
+    <div className='project-section py-20' >
       <div className='container '>
-      <h2 className='text-[40px] font-bold text-center'>Code & Craft: <span className='bg-gradient-to-r from-[#0acf83] to-[#0dc27c] bg-clip-text text-transparent'>The Front-End Journey</span></h2>
+      <h2 className='text-[32px] sm:text-[40px] font-bold text-center'>Code & Craft: <span className='bg-gradient-to-r from-[#0acf83] to-[#0dc27c] bg-clip-text text-transparent'>The Front-End Journey</span></h2>
       <p className='text-lg text-[#242529] mt-2 mb-5 hidden sm:block text-center'>Passionate about clean code & user-centric design, honed my skills as a front-end developer. showcasing my journey and the expertise I bring to projects.</p>
-      <div className=' flex flex-row-reverse items-baseline justify-between m-auto'>
-        <div className='w-1/2'>
+      <div className=' flex flex-col-reverse lg:flex-row-reverse items-baseline justify-between m-auto p-2 xl:p-0'>
+        <div className='w-full lg:w-1/2 mt-10 lg:mt-0'>
             <ul className="mb-4 ml-4 divide-y divide-dashed border-l border-[#2425295A]">
                 {
                   experiences.map((experience,index)=>(
@@ -58,7 +58,7 @@ const Experience = () => {
                 }
             </ul>
         </div>
-        <div className=''>
+        <div className='w-full lg:w-auto'>
           <div className="h-full w-full max-w-[32rem] items-center justify-center overflow-hidden pt-8">
             <BoxReveal boxColor={"#0acf831a"} duration={0.5}>
               <p className="text-3xl font-semibold">
@@ -95,11 +95,15 @@ const Experience = () => {
             </BoxReveal>
   
             <BoxReveal boxColor={"#0acf831a"} duration={0.5} width='100%'>
-              <Link href="mailto:bharat.nagda94@gmail.com" className="w-3/4 text-center mt-[1.6rem]  transition-all block rounded-md  text-black font-semibold text-lg"><Button btntext="Ready to Make a Difference?" /></Link>
+              <Link href="mailto:bharat.nagda94@gmail.com" className="w-3/4 text-center mt-[1.6rem] hidden transition-all lg:block rounded-md  text-black font-semibold text-lg"><Button btntext="Ready to Make a Difference?" /></Link>
             </BoxReveal>
           </div>
         </div>
+        
     </div>
+    <BoxReveal boxColor={"#0acf831a"} duration={0.5} width='100%'>
+      <Link href="mailto:bharat.nagda94@gmail.com" className="sm:hidden w-3/4 m-auto text-center mt-[1.6rem]  transition-all block rounded-md  text-black font-semibold text-lg"><Button btntext="Ready to Make a Difference?" /></Link>
+    </BoxReveal>
       </div>
     </div>
   )

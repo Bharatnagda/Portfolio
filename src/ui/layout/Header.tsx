@@ -20,10 +20,10 @@ const Header = () => {
           <div className='text-white text-base sm:text-lg lg:text-2xl'>
             Portfolio
           </div>
-          <div className='3/5 m-auto flex items-center justify-center'>
+          <div className='3/5 m-auto lg:flex items-center justify-center hidden'>
               <Link href="/" className='text-white px-5 text-lg hover:text-[#16F529] transition-all'>Home</Link>
-              <Link href="/" className='text-white px-5 text-lg hover:text-[#16F529] transition-all'>About</Link>
-              <Link href="/" className='text-white px-5 text-lg hover:text-[#16F529] transition-all'>Project</Link>
+              <Link href="#about" className='text-white px-5 text-lg hover:text-[#16F529] transition-all' scroll={true}>About</Link>
+              <Link href="#project" className='text-white px-5 text-lg hover:text-[#16F529] transition-all' scroll={true}>Project</Link>
               
           </div>
           <Link href="tel:+91-9782241022">

@@ -18,9 +18,9 @@ const ProjectCard = ({imgUrl,projectTitle,projectDuration,aboutProject,webUrl}:{
         </div>
         <div className='w-full p-2'>
        
-          <p className='text-base text-black font-semibold'>{projectTitle}</p>
-          <p className='text-sm font-medium text-[#737373] my-1'>{projectDuration}</p>
-          <p className='text-sm text-[#737373] my-4'>{aboutProject}
+          <p className='text-sm sm:text-base text-black font-semibold'>{projectTitle}</p>
+          <p className='text-xs sm:text-sm font-medium text-[#737373] my-1'>{projectDuration}</p>
+          <p className='text-xs sm:text-sm text-[#737373] my-4'>{aboutProject}
           </p>
           
           <div className='flex flex-wrap gap-2 my-3'>
