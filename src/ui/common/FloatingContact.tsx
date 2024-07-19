@@ -18,7 +18,7 @@ const FloatingContact = () => {
         <Link href="/" className='rounded-full transition-all'>
             <Image src="/icons/whatsapp.png" width={24} height={24} alt='social icon' className='hover:scale-125 hover:drop-shadow-lg transition-all rounded-full'/>
         </Link> */}
-         <Link href="/" className='rounded-full transition-all'>
+         <Link href="https://wa.me/919782241022" className='rounded-full transition-all'>
             <Image src="/icons/whatsapp.png" width={34} height={34} alt='social icon' className='hover:scale-125 hover:drop-shadow-lg transition-all rounded-full'/>
         </Link> 
     </div>
