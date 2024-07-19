@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={quicksand.className}>
       <NextUIProvider>
-        <Header/>
+        {/* <Header/> */}
         {children}
       </NextUIProvider>
         </body>

@@ -95,14 +95,14 @@ const Experience = () => {
             </BoxReveal>
   
             <BoxReveal boxColor={"#0acf831a"} duration={0.5} width='100%'>
-              <Link href="mailto:bharat.nagda94@gmail.com" className="w-3/4 text-center mt-[1.6rem] hidden transition-all lg:block rounded-md  text-black font-semibold text-lg"><Button btntext="Ready to Make a Difference?" /></Link>
+              <Link href="https://github.com/bharatnagda" className="w-3/4 text-center mt-[1.6rem] hidden transition-all lg:block rounded-md  text-black font-semibold text-lg"><Button btntext="Ready to Make a Difference?" /></Link>
             </BoxReveal>
           </div>
         </div>
         
     </div>
     <BoxReveal boxColor={"#0acf831a"} duration={0.5} width='100%'>
-      <Link href="mailto:bharat.nagda94@gmail.com" className="sm:hidden w-3/4 m-auto text-center mt-[1.6rem]  transition-all block rounded-md  text-black font-semibold text-lg"><Button btntext="Ready to Make a Difference?" /></Link>
+      <Link href="https://github.com/bharatnagda" className="sm:hidden w-3/4 m-auto text-center mt-[1.6rem]  transition-all block rounded-md  text-black font-semibold text-lg"><Button btntext="Ready to Make a Difference?" /></Link>
     </BoxReveal>
       </div>
     </div>
