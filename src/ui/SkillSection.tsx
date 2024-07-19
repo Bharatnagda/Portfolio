@@ -54,7 +54,7 @@ const SkillSection = () => {
         <div className="flex items-center justify-center w-full lg:w-[40%] m-auto h-full">
         <BlurIn
           word="Crafted and steward a vast library of interfaces, demonstrating expertise in designing and managing intricate user flows."
-          className="text-base font-medium text-white dark:text-white mt-20 mb-10 sm:my-20"
+          className="text-base font-medium text-white dark:text-white mt-10 sm:mt-20 mb-10 sm:my-20"
         />
           {/* <TextRevealByWord text="Crafted and steward a vast library of interfaces, demonstrating expertise in designing and managing intricate user flows." /> */}
         

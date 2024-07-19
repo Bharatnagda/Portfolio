@@ -5,7 +5,7 @@ import React from 'react'
 
 const FloatingContact = () => {
   return (
-    <div className='fixed left-5 top-0 bottom-0 m-auto h-fit p-3 border-1 border-white bg-black/20 flex flex-col gap-5 rounded-2xl shadow-[0_35px_85px_2px_#fff]'>
+    <div className='fixed left-3 bottom-[15%] z-50 m-auto h-fit p-1 border-1 border-white bg-white flex flex-col gap-5 rounded-full shadow-[0_35px_85px_2px_#fff]'>
         {/* <Link href="/" className='rounded-full '>
             <Image src="/icons/github.png" width={24} height={24} alt='social icon' className='hover:scale-125 hover:drop-shadow-lg transition-all rounded-full'/>
         </Link>
@@ -18,6 +18,9 @@ const FloatingContact = () => {
         <Link href="/" className='rounded-full transition-all'>
             <Image src="/icons/whatsapp.png" width={24} height={24} alt='social icon' className='hover:scale-125 hover:drop-shadow-lg transition-all rounded-full'/>
         </Link> */}
+         <Link href="/" className='rounded-full transition-all'>
+            <Image src="/icons/whatsapp.png" width={34} height={34} alt='social icon' className='hover:scale-125 hover:drop-shadow-lg transition-all rounded-full'/>
+        </Link> 
     </div>
   )
 }

@@ -92,3 +92,13 @@
  .hero-section{
   background: url(../../public/assets/herosectionbg.png);
  }
+ .mobile-box {
+  display: flex;
+  /* Other mobile-specific styles */
+}
+ @media (max-width: 768px) {
+  .mobile-box {
+    display: -webkit-box;
+    /* Other mobile-specific styles */
+  }
+}
