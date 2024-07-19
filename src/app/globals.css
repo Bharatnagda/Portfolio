@@ -96,6 +96,18 @@
   display: flex;
   /* Other mobile-specific styles */
 }
+*::-webkit-scrollbar {
+  width: 3px;
+}
+*::-webkit-scrollbar-track {
+  background: #fff;
+  border-radius: 5px;
+}
+*::-webkit-scrollbar-thumb {
+  background: #015a09;
+  border-radius: 50px;
+  border: 1px solid #015a09;
+}
  @media (max-width: 768px) {
   .mobile-box {
     display: -webkit-box;

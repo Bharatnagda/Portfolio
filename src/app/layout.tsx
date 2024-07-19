@@ -3,6 +3,7 @@ import { Quicksand } from "next/font/google";
 import "./globals.css";
 import Header from "@/ui/layout/Header"
 import { NextUIProvider } from "@nextui-org/system";
+import Footer from "@/ui/layout/Footer";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
       <NextUIProvider>
         {/* <Header/> */}
         {children}
+        {/* <Footer/> */}
       </NextUIProvider>
         </body>
     </html>
