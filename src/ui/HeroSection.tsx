@@ -22,8 +22,8 @@ const HeroSection = () => {
       text="Designing &amp; developing"
       />
       <GradualSpacing
-        className="inline-block text-center text-3xl lg:text-5xl 2xl:text-7xl font-bold tracking-[0.1em]  bg-gradient-to-r from-[#0acf83] to-[#0dc27c] bg-clip-text text-transparent  md:leading-[130%]"
-        text=" beyond"
+        className="py-1  inline-block text-center text-3xl lg:text-5xl 2xl:text-7xl font-bold tracking-[0.1em]  bg-gradient-to-r from-[#0acf83] to-[#0dc27c] bg-clip-text text-transparent  md:leading-[5rem]"
+        text="beyond"
       />
       <GradualSpacing
         className="inline-block  text-center text-3xl lg:text-5xl 2xl:text-7xl font-medium tracking-[-0.1em]  text-white dark:text-white md:leading-[5rem]"
