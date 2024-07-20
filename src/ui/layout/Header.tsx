@@ -39,7 +39,7 @@ const Header = () => {
       <div className={`flex w-full m-auto items-center justify-between  container p-2 border-1 border-indigo-200 rounded-xl bg-[rgb(0,0,0,0.1)] `}>
         {
           HeaderItems.map((HeaderItem,index)=>(
-            <Link key={index} href={HeaderItem.url} className={`${pathName === HeaderItem.url ? "bg-white text-[#01322090]":"bg-transparent "} hover:scale-105 transition-all uppercase font-semibold w-1/5 text-white text-center rounded-lg p-1 sm:p-2`}>{HeaderItem.title}</Link>
+            <Link key={index} href={HeaderItem.url} className={`${pathName === HeaderItem.url ? "bg-white text-[#01322090]":"bg-transparent text-green-900"} hover:scale-105 transition-all uppercase font-semibold w-1/5 text-white text-center rounded-lg p-1 sm:p-2`}>{HeaderItem.title}</Link>
       
           ))
         }
