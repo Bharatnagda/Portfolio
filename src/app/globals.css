@@ -98,6 +98,7 @@
 }
 *::-webkit-scrollbar {
   width: 3px;
+  display: none;
 }
 *::-webkit-scrollbar-track {
   background: #fff;
