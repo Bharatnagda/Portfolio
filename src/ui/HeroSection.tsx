@@ -30,9 +30,8 @@ const HeroSection = () => {
         text="the ordinary"
       />
       <p className='px-2 md:px-0 w-full md:w-[60%] lg:w-1/2 xl:w-[40%] 2xl:w-[30%] text-center m-auto text-[#87928f] text-lg font-semibold my-4'>I craft user-friendly interfaces & responsive layouts for brands & B2B businesses, driving conversions & growth.</p>
-      <div className='mx-auto mt-10 w-fit  rounded-lg  bg-gradient-to-r from-[#000] to-[#0dc27c] hover:scale-105 border-2 py-1.5 sm:py-2.5 px-8 sm:px-14 border-[#0dc27c]  transition-all'>
-        <Link href="/docs/Resume light.pdf" className='text-white relative z-50 text-lg font-semibold transition-all' target='_blank' download>Hire Now!</Link>
-      </div>
+      
+      <Link href="/docs/Resume light.pdf" className='mx-auto mt-10 w-fit  rounded-lg  bg-gradient-to-r from-[#000] to-[#0dc27c] hover:scale-105 border-2 py-1.5 sm:py-2.5 px-8 sm:px-14 border-[#0dc27c] text-white relative z-50 text-lg font-semibold transition-all block' target='_blank' download>Hire Now!</Link>
       <Image src="/assets/cloud.webp" width={800} height={50} alt='hero-mask' className='hidden sm:block absolute -bottom-[10%] 2xl:-bottom-[5%] -right-[15%] 2xl:-right-[10%]  m-auto h-min w-1/2 z-50'/>
     </div>
     </div>
