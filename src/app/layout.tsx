@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/ui/layout/Header"
 import { NextUIProvider } from "@nextui-org/system";
 import Footer from "@/ui/layout/Footer";
+import FloatingContact from "@/ui/common/FloatingContact";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
@@ -21,9 +22,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={quicksand.className}>
       <NextUIProvider>
-        {/* <Header/> */}
+        <Header/>
         {children}
-        <Footer/>
+        {/* <Footer/> */}
+        <FloatingContact/>
       </NextUIProvider>
         </body>
     </html>

@@ -109,7 +109,12 @@
   border-radius: 50px;
   border: 1px solid #015a09;
 }
- @media (max-width: 768px) {
+/* .dock-single{
+  width: 0px !important;
+  height: fit-content;
+} */
+
+@media (max-width: 768px) {
   .mobile-box {
     display: -webkit-box;
     /* Other mobile-specific styles */

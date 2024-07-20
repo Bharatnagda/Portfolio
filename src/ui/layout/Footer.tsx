@@ -77,20 +77,8 @@ const Footer = () => {
                 <Image src="/icons/skype.png" width={65} height={65} alt='icons'/>
             </Link>
           </Circle>
-          <Circle ref={div4Ref} className="size-16">
-            
-                <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="#000000"
-                    strokeWidth="2"
-                    xmlns="http://www.w3.org/2000/svg"
-                    >
-                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
-                    <circle cx="12" cy="7" r="4" />
-                </svg>
+          <Circle ref={div4Ref} className="size-16 bg-black p-0">
+               <Image src="/profile.png" width={48} height={48} alt='profile'/>
           </Circle>
           <Circle ref={div6Ref}>
             <Link href="mailto:bharat.nagda94@gmail.com">

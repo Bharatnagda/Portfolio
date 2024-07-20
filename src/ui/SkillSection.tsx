@@ -60,17 +60,17 @@ const SkillSection = () => {
         
         </div>
         <div className='hidden lg:block'>
-          <Image src="/icons/html5.png" width={85} height={85} alt='icons' className='animate-floatleft absolute top-[5%] left-[45%] drop-shadow-md'/>
-          <Image src="/icons/css.png" width={85} height={85} alt='icons' className='animate-floatright absolute top-[30%] left-[20%] xl:left-[25%] drop-shadow-md'/>
-          <Image src="/icons/reactjs.png" width={85} height={85} alt='icons' className='animate-floatleft absolute top-[8%] left-[10%] drop-shadow-md'/>
-          <Image src="/icons/tailwind.png" width={85} height={85} alt='icons' className='animate-floatleft absolute top-[50%] left-[12%] drop-shadow-md'/>
-          <Image src="/icons/nextjs.png" width={85} height={85} alt='icons' className='animate-floatleft absolute top-[5%] right-[10%] drop-shadow-md'/>
-          <Image src="/icons/jira.png" width={85} height={85} alt='icons' className='animate-floatright absolute top-[40%] xl:top-[35%] right-[15%] xl:right-[22%] drop-shadow-md'/>
-          <Image src="/icons/vscode.png" width={85} height={85} alt='icons' className='animate-floatleft absolute bottom-[10%] xl:bottom-[20%] left-[25%] xl:left-[30%] drop-shadow-md'/>
+          <Image src="/icons/html5.png" width={85} height={85} alt='icons' className='z-10 animate-floatleft absolute top-[5%] left-[45%] drop-shadow-md'/>
+          <Image src="/icons/css.png" width={85} height={85} alt='icons' className='z-10 animate-floatright absolute top-[30%] left-[20%] xl:left-[25%] drop-shadow-md'/>
+          <Image src="/icons/reactjs.png" width={85} height={85} alt='icons' className='z-10 animate-floatleft absolute top-[8%] left-[10%] drop-shadow-md'/>
+          <Image src="/icons/tailwind.png" width={85} height={85} alt='icons' className='z-10 animate-floatleft absolute top-[50%] left-[12%] drop-shadow-md'/>
+          <Image src="/icons/nextjs.png" width={85} height={85} alt='icons' className='z-10 animate-floatleft absolute top-[5%] right-[10%] drop-shadow-md'/>
+          <Image src="/icons/jira.png" width={85} height={85} alt='icons' className='z-10 animate-floatright absolute top-[40%] xl:top-[35%] right-[15%] xl:right-[22%] drop-shadow-md'/>
+          <Image src="/icons/vscode.png" width={85} height={85} alt='icons' className='z-10 animate-floatleft absolute bottom-[10%] xl:bottom-[20%] left-[25%] xl:left-[30%] drop-shadow-md'/>
           
-          <Image src="/icons/bootstrap.png" width={85} height={85} alt='icons' className='animate-floatleft absolute bottom-[10%] xl:bottom-[20%] right-[15%] xl:right-[25%] drop-shadow-md'/>
-          <Image src="/icons/figma.png" width={85} height={85} alt='icons' className='animate-floatleft absolute top-[55%] right-[2%] xl:right-[5%] drop-shadow-md'/> 
-          <Image src="/icons/javascript.png" width={85} height={85} alt='icons' className='animate-floatright absolute bottom-0 xl:bottom-[5%] right-[45%] drop-shadow-md'/> 
+          <Image src="/icons/bootstrap.png" width={85} height={85} alt='icons' className='z-10 animate-floatleft absolute bottom-[10%] xl:bottom-[20%] right-[15%] xl:right-[25%] drop-shadow-md'/>
+          <Image src="/icons/figma.png" width={85} height={85} alt='icons' className='z-10 animate-floatleft absolute top-[55%] right-[2%] xl:right-[5%] drop-shadow-md'/> 
+          <Image src="/icons/javascript.png" width={85} height={85} alt='icons' className='z-10 animate-floatright absolute bottom-0 xl:bottom-[5%] right-[45%] drop-shadow-md'/> 
         </div>
       </div>
       <DotPattern

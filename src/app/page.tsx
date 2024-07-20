@@ -16,7 +16,6 @@ export default function Home() {
       <ProjectSection/>
       <Experience/>
       <ContactStrip/>
-      <FloatingContact/>
     </main>
   );
 }
