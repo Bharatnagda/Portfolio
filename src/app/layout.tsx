@@ -5,6 +5,7 @@ import Header from "@/ui/layout/Header"
 import { NextUIProvider } from "@nextui-org/system";
 import Footer from "@/ui/layout/Footer";
 import FloatingContact from "@/ui/common/FloatingContact";
+import StickyFooter from "@/ui/layout/StickyFooter";
 
 const quicksand = Quicksand({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         {children}
         {/* <Footer/> */}
         <FloatingContact/>
+        <StickyFooter/>
       </NextUIProvider>
         </body>
     </html>
