@@ -26,7 +26,7 @@ const ProjectSection = () => {
             <ProjectCard imgUrl="/assets/mySip.gif" projectTitle='My SIP Online: Invest smarter' projectDuration='Jul 2023 - Present' aboutProject='My SIP Online: Your one-stop shop for smarter investing. We guide you through mutual funds, recommend personalized options, and provide top-notch support to ensure success.' webUrl='https://www.mysiponline.com/'/>
             </div>
             <div className='w-[80%] sm:w-1/2 lg:w-[35%] xl:w-[30%] 2xl:w-[26%] mr-5 sm:mr-0'>
-            <ProjectCard imgUrl="/assets/lysosoft.gif" projectTitle='LysoSoft: lift Your Digital Growth' projectDuration='Jan 2024 - Present' aboutProject='project focuses on empowering businesses to thrive in the digital age. We offer tailored solutions to help small businesses and enterprises build a strong online presence, reach new customers, and drive growth.' webUrl='tel:+91-9782241022'/>
+            <ProjectCard imgUrl="/assets/lysosoft.gif" projectTitle='LysoSoft: lift Your Digital Growth' projectDuration='Jan 2024 - Present' aboutProject='focuses on empowering businesses to thrive in the digital age.offer tailored solutions to help small businesses and enterprises build a strong online presence, reach new customers, and drive growth.' webUrl='tel:+91-9782241022'/>
             </div>
         </div>
     </div>
