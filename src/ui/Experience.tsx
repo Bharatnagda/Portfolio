@@ -62,7 +62,7 @@ const Experience = () => {
           <div className="h-full w-full max-w-[32rem] items-center justify-center overflow-hidden pt-8">
             <BoxReveal boxColor={"#0acf831a"} duration={0.5}>
               <p className="text-3xl font-semibold">
-              Front-End Developer<span className="text-[#747579]"></span>
+              Senior Front-End Developer<span className="text-[#747579]"></span>
               </p>
             </BoxReveal>
   
