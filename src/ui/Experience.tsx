@@ -9,7 +9,7 @@ const experiences = [
     title: "Cognus Technology",
     location: "Udaipur city, India",
     date: "July 2023 - Present",
-    description: "I build and optimize user interfaces for investment apps, dashboards, and educational platforms using Next.js and React.js. Collaborating with designers, I focus on enhancing user experience and driving conversions",
+    description: "I build and optimize user interfaces for investment apps, dashboards, and educational platforms using Next.js and React.js. Collaborating with designers, I focus on enhancing user experience and driving conversions.",
     imageUrl: "/assets/cognus.png",
   },
   {
