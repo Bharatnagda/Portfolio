@@ -64,7 +64,7 @@ const StickyFooter = () => {
             />
           </svg>
         </span>
-        Call Us Now
+        Call Me Now
       </Link>
       <Link
        href="/docs/Resume light.pdf"

@@ -5,7 +5,7 @@ import React from 'react'
 
 const FloatingContact = () => {
   return (
-    <div className='fixed left-3 bottom-[15%] z-50 m-auto h-fit p-1 border-1 border-white bg-white flex flex-col gap-5 rounded-full shadow-[0_35px_85px_2px_#fff] hover:scale-105  transition-all'>
+    <div className='fixed left-5 sm:left-10 bottom-[15%] z-50 m-auto h-fit p-1 border-1 border-white bg-white flex flex-col gap-5 rounded-full shadow-[0_35px_85px_2px_#fff] hover:scale-105  transition-all'>
         {/* <Link href="/" className='rounded-full '>
             <Image src="/icons/github.png" width={24} height={24} alt='social icon' className='hover:scale-125 hover:drop-shadow-lg transition-all rounded-full'/>
         </Link>

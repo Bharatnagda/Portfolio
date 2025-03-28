@@ -3,12 +3,12 @@ import { MagicCard } from "@/components/magicui/magic-card";
 import Image from 'next/image';
 import Link from 'next/link';
 import { BorderBeam } from '@/components/magicui/border-beam';
-const ProjectCard = ({imgUrl,projectTitle,projectDuration,aboutProject,webUrl}:{webUrl:string,imgUrl:string,projectTitle:string,projectDuration:string,aboutProject:string}) => {
+const ProjectCard = ({classname,imgUrl,projectTitle,projectDuration,aboutProject,webUrl}:{classname:string,webUrl:string,imgUrl:string,projectTitle:string,projectDuration:string,aboutProject:string}) => {
   return (
-    <div className='border- rounded-lg '>
+    <div className={`${classname} rounded-2xl `}>
       
         <MagicCard
-        className="flex flex-col items-center justify-center shadow-lg rounded-lg bg-white "
+        className="flex flex-col items-center justify-center shadow-lg rounded-2xl bg-white "
         gradientColor="#16F5292A"
         >
            <BorderBeam size={350} duration={20} delay={2} />
@@ -20,7 +20,7 @@ const ProjectCard = ({imgUrl,projectTitle,projectDuration,aboutProject,webUrl}:{
        
           <p className='text-sm sm:text-base text-black font-semibold'>{projectTitle}</p>
           <p className='text-xs sm:text-sm font-medium text-[#737373] my-1'>{projectDuration}</p>
-          <p className='text-xs sm:text-sm text-[#737373] my-4'>{aboutProject}
+          <p className='text-xs sm:text-sm text-[#737373] my-4 line-clamp-2 sm:line-clamp-none'>{aboutProject}
           </p>
           
           <div className='flex flex-wrap gap-2 my-3'>
