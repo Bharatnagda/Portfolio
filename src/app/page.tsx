@@ -1,3 +1,4 @@
+import { getDeviceType } from "@/libs/device";
 import ContactStrip from "@/ui/common/ContactStrip";
 import FloatingContact from "@/ui/common/FloatingContact";
 import Experience from "@/ui/Experience";
@@ -8,23 +9,10 @@ import SkillSection from "@/ui/SkillSection";
 import { headers } from "next/headers";
 import Image from "next/image";
 
-export function getDeviceType() {
-  const headersList = headers();
-  const userAgent = headersList.get("user-agent") || "";
-
-  if (/mobile/i.test(userAgent)) {
-    return "Mobile";
-  } else if (/tablet/i.test(userAgent)) {
-    return "Tablet";
-  } else {
-    return "Desktop";
-  }
-}
 
 
-export default function Home() {
-  const device = getDeviceType();
-  console.log('device is ',device);
+export default async function Home() {
+  const device = await getDeviceType();
   
     
   return (
